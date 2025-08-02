@@ -19,9 +19,9 @@
       "@/utils/*": ["app/utils/*"],
       "@/context/*": ["app/context/*"]
     },
-    "rootDir": ".",
+    "rootDir": "backend",
     "outDir": "dist"
   },
-  "include": ["**/*.ts", "**/*.tsx", "backend/server.ts"],
+  "include": ["backend/**/*.ts", "backend/**/*.tsx"],
   "exclude": ["node_modules"]
 }
