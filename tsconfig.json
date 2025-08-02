@@ -6,7 +6,7 @@
     "allowJs": true,
     "skipLibCheck": true,
     "strict": false,
-    "noEmit": true,
+    "noEmit": false,
     "incremental": true,
     "module": "esnext",
     "esModuleInterop": true,
@@ -20,10 +20,6 @@
       "@/context/*": ["app/context/*"]
     }
   },
-  "include": [
-    "**/*.ts",
-    "**/*.tsx",
-    "backend/server.ts"
-  ],
+  "include": ["**/*.ts", "**/*.tsx", "backend/server.ts"],
   "exclude": ["node_modules"]
 }
